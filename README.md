@@ -1,3 +1,8 @@
+```
+ng build --prod --base-href .
+wytwarza paczkę produkcyjną z odpowiednim tagiem <base href="."> w dist/index.html
+```
+
 # AngularZadanie
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.2.
