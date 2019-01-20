@@ -1,0 +1,10 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>{{title}}</h1> <!--podwójne wąsy, zmienne w JS dostępne-->
+<label for="email">Email:</label>
+<input [(ngModel)]="email" id="email" type="email"/>
+<label [ngClass]="{warning: showError}" for="password">Password:</label>
+<input [(ngModel)]="password" id="password" type="password"/>
+<!--<span> {{email}} </span>-->
+<span *ngIf="showError">Uzupełnij pola</span>
+<button (click)="submit()">Submit</button>
+<weather-component></weather-component>
