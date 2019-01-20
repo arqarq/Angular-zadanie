@@ -20,7 +20,6 @@ export class AppComponent {
       this.showError = false;
     }
     if (this.email && this.email === 'admin'){
-
     }
   }
 }
